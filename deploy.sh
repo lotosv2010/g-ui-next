@@ -23,5 +23,6 @@ git commit -m 'deploy'
 git push -f git@github.com:lotosv2010/g-ui-next.git master:gh-pages
 # 比如
 # git push -f git@github.com:Tsanfer/VuePress-GithubPages-TravisCI.git master:gh-pages
+# acc9fe9d05a59835ebeb81242061a1d35ff24302
 
 cd -
