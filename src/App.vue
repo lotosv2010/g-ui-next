@@ -1,11 +1,23 @@
 <template>
   <div>APP</div>
+  <ExButton />
+  <ExButtonGroup />
+  <ExIcon />
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
+import ExButton from "../examples/button.vue";
+import ExIcon from "../examples/icon.vue";
+import ExButtonGroup from "../examples/button-group.vue";
 
-@Options({})
+@Options({
+  components: {
+    ExButton,
+    ExIcon,
+    ExButtonGroup
+  }
+})
 export default class App extends Vue {}
 </script>
 
