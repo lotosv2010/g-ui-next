@@ -1,7 +1,8 @@
 module.exports = {
     title: 'g-ui 组件库', // 设置网站标题
     description: 'ui 库', //描述
-    dest: './build', // 设置输出目录
+    base: '/g-ui-next/',
+    dest: './dist', // 设置输出目录
     themeConfig: { //主题配置
         nav: [
             { text: '主页', link: '/' },
