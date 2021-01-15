@@ -31,7 +31,7 @@ if (process.env.NODE_ENV == "production" && args.includes("--all")) {
         filename: `lib/[name]/index.js`,
         libraryTarget: "umd",
         libraryExport: "default",
-        library: ["zf", "[name]"]
+        library: ["gui", "[name]"]
       },
       externals: {
         vue: {

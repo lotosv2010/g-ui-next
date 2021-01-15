@@ -1,7 +1,7 @@
 {
   "name": "g-ui-next",
-  "version": "1.0.0",
-  "private": true,
+  "version": "1.0.2",
+  "private": false,
   "main": "./dist/gui.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
