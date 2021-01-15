@@ -2,9 +2,11 @@
   "name": "g-ui-next",
   "version": "1.0.0",
   "private": true,
+  "main": "./dist/gui.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:lib": "vue-cli-service build --target lib --name gui ./src/packages/index.ts --no-clean && vue-cli-service build  --all --no-clean",
     "test:unit": "vue-cli-service test:unit",
     "test": "karma start",
     "lint": "vue-cli-service lint",
